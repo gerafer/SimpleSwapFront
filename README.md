@@ -12,27 +12,29 @@ The project focuses on building a **usable, production-ready DApp interface** wh
 
 The frontend uses **React, Vite, and Ethers.js v6**, offering:
 
-- **Wallet Connection**: Secure MetaMask integration, auto-detecting network/account changes.
-- **Token Balances**: Live retrieval of Token A and Token B balances.
-- **Price Viewer**: Real-time Token A/Token B price retrieval from the SimpleSwap smart contract.
-- **Liquidity Provision**: Add liquidity to the pool directly from the UI.
-- **Token Swaps**: Execute Token A ↔️ Token B swaps with dynamic quoting.
-- **Clean Component Structure**:
-  - `ConnectButton.tsx`: Handles wallet connection.
-  - `PriceViewer.tsx`: Displays live price.
-  - `SwapUI.tsx`: User interface for swaps.
-  - `LiquidityUI.tsx`: Interface for adding liquidity.
+* **Wallet Connection:** Secure MetaMask integration, auto-detecting network/account changes.
+* **Token Balances:** Live retrieval of Token A and Token B balances.
+* **Price Viewer:** Real-time Token A/Token B price retrieval from the SimpleSwap smart contract.
+* **Liquidity Provision:** Add liquidity to the pool directly from the UI.
+* **Token Swaps:** Execute Token A ↔️ Token B swaps with dynamic quoting.
+
+**Clean Component Structure:**
+
+* `ConnectButton.tsx`: Handles wallet connection.
+* `PriceViewer.tsx`: Displays live price.
+* `SwapUI.tsx`: User interface for swaps.
+* `LiquidityUI.tsx`: Interface for adding liquidity.
 
 ---
 
 ## 3. Technology Stack ⚙️
 
-- **Framework**: React with TypeScript
-- **Build Tool**: Vite
-- **Blockchain Interaction**: Ethers.js v6
-- **Smart Contract Backend**: Hardhat (external repo)
-- **Testing**: Vitest & Hardhat for contract-level testing
-- **Deployment**: GitHub Pages
+* **Framework:** React with TypeScript
+* **Build Tool:** Vite
+* **Blockchain Interaction:** Ethers.js v6
+* **Smart Contract Backend:** Hardhat (external repo)
+* **Testing:** Vitest & Hardhat for contract-level testing
+* **Deployment:** GitHub Pages
 
 ---
 
@@ -50,23 +52,31 @@ Connect your MetaMask wallet (set to **Sepolia**) to test swaps, view balances, 
 
 The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
 
-<img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/29229dac-035d-4733-9a10-38cce07c483a" />
+<img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/0a8ef33e-026f-4aa3-982f-0c3d2b7cbb87" />
+<img width="835" height="790" alt="Captura de Pantalla 2025-07-18 a la(s) 01 34 50" src="https://github.com/user-attachments/assets/2bd18221-d664-4e1f-8c16-35e84e2acfbe" />
 
-<img width="835" height="790" alt="Captura de Pantalla 2025-07-18 a la(s) 01 34 50" src="https://github.com/user-attachments/assets/103779e2-c5a0-45e7-90e2-6c0215c3d93d" />
+---
 
 
-6. Future Improvements 🛠️
+## 6. Future Improvements 🛠️
 
-✅ Integrate test faucet UI for easier token acquisition.
-✅ Display liquidity pool statistics.
-✅ Add input validation and slippage protection in the swap UI.
-✅ Implement transaction status notifications.
+* [x] Integrate test faucet UI for easier token acquisition.
+* [x] Display liquidity pool statistics.
+* [x] Add input validation and slippage protection in the swap UI.
+* [x] Implement transaction status notifications.
 
-7. Author ✍️
-Gera Fernández
-Ethereum Developer - ETH KIPU  2025
+---
 
-8. License 📄
-This project is licensed under the MIT License.
+## 7. Author ✍️
+
+**Gera Fernández**
+Ethereum Developer - ETH KIPU 2025
+
+---
+
+## 8. License 📄
+
+This project is licensed under the **MIT License**.
+
 
 
