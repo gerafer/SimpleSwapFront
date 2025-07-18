@@ -50,8 +50,11 @@ Connect your MetaMask wallet (set to **Sepolia**) to test swaps, view balances, 
 
 The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
 
+<img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/29229dac-035d-4733-9a10-38cce07c483a" />
+
 To generate local coverage reports (optional for contributors):
 ```bash
 npx hardhat coverage
 open coverage/index.html
+
 
