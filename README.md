@@ -65,6 +65,12 @@ The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
 * [x] Add input validation and slippage protection in the swap UI.
 * [x] Implement transaction status notifications.
 
+| Contract          | Network | Address                                      |
+| ----------------- | ------- | -------------------------------------------- |
+| **SimpleSwap**    | Sepolia | `0x1ccAa460Db3E7340ef0d54a361ed208423D7Fa22` |
+| **Token A (TKA)** | Sepolia | `0x557F10E00e315ec431d1ECf855d1B08674a0e43B` |
+| **Token B (TKB)** | Sepolia | `0x41461235F6C59750d841D5d59A3aD01fC95804e5` |
+
 ---
 
 ## 7. Author ✍️
