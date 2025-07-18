@@ -52,9 +52,21 @@ The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
 
 <img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/29229dac-035d-4733-9a10-38cce07c483a" />
 
-To generate local coverage reports (optional for contributors):
-```bash
-npx hardhat coverage
-open coverage/index.html
+<img width="835" height="790" alt="Captura de Pantalla 2025-07-18 a la(s) 01 34 50" src="https://github.com/user-attachments/assets/103779e2-c5a0-45e7-90e2-6c0215c3d93d" />
+
+
+6. Future Improvements 🛠️
+
+✅ Integrate test faucet UI for easier token acquisition.
+✅ Display liquidity pool statistics.
+✅ Add input validation and slippage protection in the swap UI.
+✅ Implement transaction status notifications.
+
+7. Author ✍️
+Gera Fernández
+Ethereum Developer - ETH KIPU  2025
+
+8. License 📄
+This project is licensed under the MIT License.
 
 
