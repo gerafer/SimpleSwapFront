@@ -1,44 +1,57 @@
-This is the frontend application to interact with the SimpleSwap smart contract developed in Module 3 of the Ethereum Developer course.
+# SimpleSwap Frontend: A Full-Stack Decentralized Application
 
-Features
+## 1. Project Overview 📜
 
-Connect with MetaMask (Ethereum wallet)
-View balances of Token A and Token B
-View price of Token A in terms of Token B
-Add liquidity to the SimpleSwap pool
-Perform swaps from Token A to Token B and vice versa
-Technologies
+This repository contains the frontend implementation of **SimpleSwap**, a decentralized exchange interface built for **Module 3 of the Ethereum Developer KIPU Program**. The frontend interacts with a custom Automated Market Maker (AMM) smart contract deployed on the **Sepolia testnet**, providing a clean, reactive, and accessible user experience for swapping and liquidity provisioning between Token A and Token B.
 
-React with TypeScript
-Vite as bundler and development server
-Ethers.js for smart contract interaction
-Available Scripts
+The project focuses on building a **usable, production-ready DApp interface** while reinforcing key concepts in wallet connection, contract interaction, and DeFi UI workflows.
 
-npm run dev: Starts the development server locally.
-npm run build: Builds the optimized production version.
-npm run preview: Preview the built production version locally.
-npm run deploy: Deploys the dist folder to GitHub Pages.
-Local Setup Instructions
+---
 
-Clone the repository
-Navigate to the frontend folder
-Run npm install to install dependencies
-Run npm run dev to start the app at http://localhost:5173
-Connect MetaMask to interact with the contract
-Deployed URL
+## 2. Frontend Architecture 🖥️
 
-The app is deployed and accessible at:
+The frontend uses **React, Vite, and Ethers.js v6**, offering:
 
-https://gerafer.github.io/SimpleSwapFront/
+- **Wallet Connection**: Secure MetaMask integration, auto-detecting network/account changes.
+- **Token Balances**: Live retrieval of Token A and Token B balances.
+- **Price Viewer**: Real-time Token A/Token B price retrieval from the SimpleSwap smart contract.
+- **Liquidity Provision**: Add liquidity to the pool directly from the UI.
+- **Token Swaps**: Execute Token A ↔️ Token B swaps with dynamic quoting.
+- **Clean Component Structure**:
+  - `ConnectButton.tsx`: Handles wallet connection.
+  - `PriceViewer.tsx`: Displays live price.
+  - `SwapUI.tsx`: User interface for swaps.
+  - `LiquidityUI.tsx`: Interface for adding liquidity.
 
-## Test Coverage
+---
 
-This project uses [`solidity-coverage`](https://github.com/sc-forks/solidity-coverage) to measure test coverage on smart contracts.
+## 3. Technology Stack ⚙️
 
-Author
+- **Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Blockchain Interaction**: Ethers.js v6
+- **Smart Contract Backend**: Hardhat (external repo)
+- **Testing**: Vitest & Hardhat for contract-level testing
+- **Deployment**: GitHub Pages
 
-Gera Fernández
+---
 
-License
+## 4. Live Deployment 🚀
 
-MIT License
+The frontend is live and publicly accessible:
+
+🌐 [https://gerafer.github.io/SimpleSwapFront/](https://gerafer.github.io/SimpleSwapFront/)
+
+Connect your MetaMask wallet (set to **Sepolia**) to test swaps, view balances, and add liquidity directly on-chain.
+
+---
+
+## 5. Test Coverage 🧪
+
+The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
+
+To generate local coverage reports (optional for contributors):
+```bash
+npx hardhat coverage
+open coverage/index.html
+
