@@ -39,11 +39,9 @@ Este frontend utiliza HTML, CSS y JavaScript con **Ethers.js** como librería de
 
 ---
 
-## 5. Live Deployment 🚀
+## 5. **Frontend DApp 🚀 
 
-📍 **Frontend DApp en GitHub Pages:**  
-
-🔗 [https://gerafer.github.io/dapp-simpleswap/](https://gerafer.github.io/dapp-simpleswap/)
+🔗 [https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view](https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view)
 
 ---
 
@@ -63,9 +61,6 @@ Achieved ≥ 50% test coverage
 ---
 
 ## 7. Video de Demostración 🎥
-
-📹 **Opción 1 (Google Drive)**  
-🔗 [https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view](https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view)
 
 📹 **Opción 2 (Streamable)**  
 🔗 [https://streamable.com/rzwehw](https://streamable.com/rzwehw)
