@@ -49,13 +49,13 @@ Este frontend utiliza HTML, CSS y JavaScript con **Ethers.js** como librería de
 
 ## 6. Test Coverage 🧪
 
-Developed using Hardhat
-
-Unit testing with Chai and Hardhat Toolbox
-
-Code coverage measured with: 'npx hardhat coverage'
-
 Achieved ≥ 50% test coverage
+| Métrica        | Cobertura |
+| -------------- | --------- |
+| **Statements** | 92%       |
+| **Branches**   | 60%       |
+| **Functions**  | 100%      |
+| **Lines**      | 94%       |
 
 <img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/1b227b80-721e-4da0-87d3-4beefea151e1" />
 <img width="835" height="790" alt="Captura de Pantalla 2025-07-18 a la(s) 01 34 50" src="https://github.com/user-attachments/assets/8707a38a-4f3c-4f86-94d4-488ba19a2d2e" />
