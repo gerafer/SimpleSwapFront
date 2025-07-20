@@ -1,88 +1,71 @@
-# SimpleSwap Frontend: A Full-Stack Decentralized Application
+# SimpleSwap Frontend: Interfaz de DApp Descentralizada
 
-## 1. Project Overview 📜
+## 1. Descripción General 📜
 
-This repository contains the frontend implementation of **SimpleSwap**, a decentralized exchange interface built for **Module 3 of the Ethereum Developer KIPU Program**. The frontend interacts with a custom Automated Market Maker (AMM) smart contract deployed on the **Sepolia testnet**, providing a clean, reactive, and accessible user experience for swapping and liquidity provisioning between Token A and Token B.
+Este repositorio contiene la implementación de frontend de **SimpleSwap**, una aplicación descentralizada (DApp) desarrollada para el **Módulo 4 del Programa ETH KIPU**. La DApp interactúa con un contrato inteligente AMM personalizado desplegado en la red **Sepolia**, permitiendo el minteo, swap y provisión de liquidez entre **Token A** y **Token B**.
 
-The project focuses on building a **usable, production-ready DApp interface** while reinforcing key concepts in wallet connection, contract interaction, and DeFi UI workflows.
-
----
-
-## 2. Frontend Architecture 🖥️
-
-The frontend uses **React, Vite, and Ethers.js v6**, offering:
-
-* **Wallet Connection:** Secure MetaMask integration, auto-detecting network/account changes.
-* **Token Balances:** Live retrieval of Token A and Token B balances.
-* **Price Viewer:** Real-time Token A/Token B price retrieval from the SimpleSwap smart contract.
-* **Liquidity Provision:** Add liquidity to the pool directly from the UI.
-* **Token Swaps:** Execute Token A ↔️ Token B swaps with dynamic quoting.
-
-**Clean Component Structure:**
-
-* `ConnectButton.tsx`: Handles wallet connection.
-* `PriceViewer.tsx`: Displays live price.
-* `SwapUI.tsx`: User interface for swaps.
-* `LiquidityUI.tsx`: Interface for adding liquidity.
+El proyecto está enfocado en construir una interfaz funcional y entendible que permita demostrar los conceptos clave del curso: conexión de wallet, interacción con contratos inteligentes, y operaciones básicas de DeFi.
 
 ---
 
-## 3. Technology Stack ⚙️
+## 2. Funcionalidades 🛠️
 
-* **Framework:** React with TypeScript
-* **Build Tool:** Vite
-* **Blockchain Interaction:** Ethers.js v6
-* **Smart Contract Backend:** Hardhat (external repo)
-* **Testing:** Vitest & Hardhat for contract-level testing
-* **Deployment:** GitHub Pages
-
----
-
-## 4. Live Deployment 🚀
-
-The frontend is live and publicly accessible:
-
-🌐 [https://gerafer.github.io/SimpleSwapFront/](https://gerafer.github.io/SimpleSwapFront/)
-
-Connect your MetaMask wallet (set to **Sepolia**) to test swaps, view balances, and add liquidity directly on-chain.
+* 🔌 **Conexión con MetaMask**
+* 💰 **Minteo de Token A y B**
+* 🔄 **Swap entre Token A ↔️ Token B**
+* 💧 **Agregar liquidez al pool**
+* 📈 **Mostrar precio estimado de swap**
+* 🔁 **Actualización automática de balances**
 
 ---
 
-## 5. Test Coverage 🧪
+## 3. Tecnologías Utilizadas ⚙️
 
-The associated smart contracts have **95%+ coverage** using `solidity-coverage`.
-
-<img width="719" height="665" alt="Captura de Pantalla 2025-07-18 a la(s) 01 13 14" src="https://github.com/user-attachments/assets/0a8ef33e-026f-4aa3-982f-0c3d2b7cbb87" />
-<img width="835" height="790" alt="Captura de Pantalla 2025-07-18 a la(s) 01 34 50" src="https://github.com/user-attachments/assets/2bd18221-d664-4e1f-8c16-35e84e2acfbe" />
-
----
-
-
-## 6. Future Improvements 🛠️
-
-* [x] Integrate test faucet UI for easier token acquisition.
-* [x] Display liquidity pool statistics.
-* [x] Add input validation and slippage protection in the swap UI.
-* [x] Implement transaction status notifications.
-
-| Contract          | Network | Address                                      |
-| ----------------- | ------- | -------------------------------------------- |
-| **SimpleSwap**    | Sepolia | `0x1ccAa460Db3E7340ef0d54a361ed208423D7Fa22` |
-| **Token A (TKA)** | Sepolia | `0x557F10E00e315ec431d1ECf855d1B08674a0e43B` |
-| **Token B (TKB)** | Sepolia | `0x41461235F6C59750d841D5d59A3aD01fC95804e5` |
+* HTML + CSS + JavaScript
+* [Ethers.js v5](https://docs.ethers.io/v5/)
+* Smart contracts desplegados en **Sepolia**
+* Deploy del frontend mediante **GitHub Pages**
 
 ---
 
-## 7. Author ✍️
+## 4. Deploy de la DApp 🚀
 
-**Gera Fernández**
+La DApp está publicada y accesible en:
+
+🔗 [https://gerafer.github.io/dapp-simpleswap/](https://gerafer.github.io/dapp-simpleswap/)
+
+---
+
+## 5. Contratos Inteligentes 📄
+
+| Contrato          | Dirección                                     |
+| ----------------- | --------------------------------------------- |
+| **SimpleSwap**    | `0xe32ACBE6E4187312a1698C0D782D76881b356b98`  |
+| **Token A (TKA)** | `0xAfcbaC4e44C79ffA8EB25C41109e43F4BAa56296`  |
+| **Token B (TKB)** | `0x7F462bBB6aDDBf509d0Ab6C97AEF6F4F26Cf0fb9`  |
+
+---
+
+## 6. Video de Demostración 🎥
+
+📹 **Opción 1 (Google Drive)**:  
+🔗 [https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view](https://drive.google.com/file/d/1ifzb74WZ27ncOZv_bK8Ak1pOXuAE4bKD/view)
+
+📹 **Opción 2 (Streamable)**:  
+🔗 [https://streamable.com/rzwehw](https://streamable.com/rzwehw)
+
+---
+
+## 7. Autor ✍️
+
+**Gera Fernández**  
 Ethereum Developer - ETH KIPU 2025
 
 ---
 
-## 8. License 📄
+## 8. Licencia 📄
 
-This project is licensed under the **MIT License**.
+Este proyecto está licenciado bajo la **MIT License**.
 
 
 
